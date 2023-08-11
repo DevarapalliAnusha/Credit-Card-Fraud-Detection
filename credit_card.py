@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-data=pd.read_excel(r'C:/Users/sai yashasri/Documents/1 python/creditcard.xlsx')
+data=pd.read_excel(r'C:/Users/xyz python/creditcard.xlsx')
 #print(data.info())
 legit=data[data.Class==0]
 fraud=data[data.Class==1]
